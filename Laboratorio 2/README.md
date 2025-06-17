@@ -1,6 +1,16 @@
 # Laboratorio No. 02 - Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.
 ## Descripción de la solución planteada 
 
+Para la solución del laboratorio se realizaron las siguientes etapas:
+Simulaciones
+1. Se importa el soporte de la herramienta junto a la herramienta como un solo cuerpo
+2. Se define al TCP como la punta del marcador 
+3. Se crea y define un WorkObject
+4. Se realizan los puntos en la superficie del objeto de trabajo
+5. Se crean las trayectorias con lo spuntos creados
+6. Se realiza la sincronización de la estación con RAPID obteniendo la definición de los puntos y las trayectorias creadas en la estación configurando las velocidades a 100 $\frac{mm}{s}$
+   
+1.Calibración de la herramienta: Una vez acoplada la herramienta al flange del robot se realiza la calibración de la herramienta acercando el TCP ( la punta del marcador) 
 
 ## Diseño del porta-herramienta
 
